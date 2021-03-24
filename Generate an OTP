@@ -20,6 +20,9 @@ int main()
     // For different values each time we run the code 
      srand(time(0)); 
     // Declare the length of OTP 
+    cout<<"How many digits of Otp you want:"<<endl;
+    int len ;
+    cin>>len;
     int len = 6; 
     cout<<"Your OTP is - "<<generateOTP(len);
     return 0; 
