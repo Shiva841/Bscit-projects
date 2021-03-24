@@ -23,7 +23,6 @@ int main()
     cout<<"How many digits of Otp you want:"<<endl;
     int len ;
     cin>>len;
-    int len = 6; 
     cout<<"Your OTP is - "<<generateOTP(len);
     return 0; 
 } 
