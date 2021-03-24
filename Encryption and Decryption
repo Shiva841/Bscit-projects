@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 	case 2:                        //if returns 2 then do decryption
 	   cout<<endl<<endl;
 	    e.Decryption(e.Input2());  //Text is input
-	    break;.                    //break over here
+	    break;                    //break over here
 	case 3:
 	    return 0;
 	    break;
