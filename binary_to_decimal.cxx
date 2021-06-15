@@ -5,9 +5,7 @@ int main(int argc, char *argv[])
 {
 	int t;
 	cin>>t;
-	while(t--){
-		int n ;
-		cin>>n;
+	while(t-->=0){
 	string s;
 	cin>>s;
 		int result =0;
