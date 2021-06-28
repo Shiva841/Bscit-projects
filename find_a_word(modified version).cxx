@@ -17,7 +17,7 @@ int main()
 		{
 			pos = line.find(word);
 			
-			if (pos != -1) // string::npos is returned if string is not found
+			if (pos != -1) //if no matches returns -1
 			{
 				cout << "Found! at "<<pos;
 				return 0;
