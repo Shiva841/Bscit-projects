@@ -20,6 +20,7 @@ int main()
 			if (pos != -1) //if no matches returns -1
 			{
 				cout << "Found! at "<<pos<<endl;
+                                return 0;
 				break;
 			}
 		}
