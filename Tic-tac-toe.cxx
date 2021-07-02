@@ -1,6 +1,4 @@
-/**********************************
-           SOURCE CODE
-**********************************/
+
 #include <iostream.h>
 #include <string.h>
 #include <conio.h>
@@ -56,13 +54,6 @@ int main()
 	getch();
 	return 0;
 }
-/*********************************************
-	FUNCTION TO RETURN GAME STATUS
-	1 FOR GAME IS OVER WITH RESULT
-	-1 FOR GAME IS IN PROGRESS
-	O GAME IS OVER AND NO RESULT
-**********************************************/
-
 int checkwin()
 {
 	if (square[1] == square[2] && square[2] == square[3])
@@ -87,12 +78,6 @@ int checkwin()
 		return -1;
 }
 
-
-/*******************************************************************
-     FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH PLAYERS MARK
-********************************************************************/
-
-
 void board()
 {
 	clrscr();
@@ -109,7 +94,3 @@ void board()
 	cout << "  " << square[7] << "  |  " << square[8] << "  |  " << square[9] << endl;
 	cout << "     |     |     " << endl << endl;
 }
-
-/*******************************************************************
-				END OF PROJECT
-********************************************************************/
