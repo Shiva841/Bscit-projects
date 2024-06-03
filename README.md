@@ -1,2 +1,5 @@
 # Bscit-projects
-I created this repo because with cpp programming language I doesn't have enough projects to do that ,So here I trying to do more projects in cpp to improve my skills, whatever I have learn to put into this.It will Surely helping me to improve my Logic also.
+I created this repo because cpp programming language I doesn't have enough projects for beginners,
+So here Im trying to do more projects in cpp to improve my skills. 
+whatever I have learn im gonna use that concept to build some cli based projects.
+It will Surely helping me to improve my Logic also.
